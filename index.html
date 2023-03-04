@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module-1-Exercise</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("misc/header.html");
+        $("#footer").load("misc/footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <br />
+    <h1>The Art Book Shop</h1>
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="images.html">Images</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="forms.html">Contact</a>
+      </li>
+    </ul>
+
+    <h2>We are Web Developers</h2>
+    <p>Located at Davao City, Davao Del Sur PH</p>
+    <p>CP #: 09123456789</p>
+
+    <img
+      class="banner"
+      src="https://rec-data.kalibrr.com/www.kalibrr.com/logos/UKNGXAK225YNTPV76E3SCDCRU422VWDKX9UVDH8B-6369fb45.jpg"
+      alt="Kodego logo"
+    />
+
+    <br />
+    <div id="footer"></div>
+  </body>
+</html>
